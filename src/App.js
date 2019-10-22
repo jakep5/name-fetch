@@ -1,11 +1,12 @@
 import React from 'react';
+import './App.css'
 
-function App() {
+function Demonym (props) {
   return (
-    <main className='App'>
-      {/* content goes here */}
-    </main>
-  );
+    <div className="demonym">
+      A {props.name} comes from {props.country}
+    </div>
+  )
 }
 
-export default App;
+export default Demonym
