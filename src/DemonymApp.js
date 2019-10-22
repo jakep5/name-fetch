@@ -52,6 +52,7 @@ class DemonymApp extends React.Component {
 
     return (
       <div className = "demonym_app">
+        {error} {/* displays error div */}
         <CountrySelector countries={this.state.countries} changeHandler = {selected => this.setSelected(selected)}/>
         {demon}
       </div>
