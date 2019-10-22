@@ -1,0 +1,13 @@
+div.demonym {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50%;
+}
+
+div.demonym_app__placeholder {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50%;
+}

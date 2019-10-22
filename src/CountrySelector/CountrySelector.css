@@ -1,0 +1,10 @@
+div.country_selector {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30%;
+}
+
+#country {
+    margin-left: 10px;
+}
