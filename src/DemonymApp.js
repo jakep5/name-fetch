@@ -3,14 +3,17 @@ import DemonymDisplay from './DemonymDisplay/DemonymDisplay';
 import CountrySelector from './CountrySelector/CountrySelector';
 import './App.css';
 
+
 class DemonymApp extends React.Component {
   constructor(props) {
     super(props);
     this.state ={
       countries: [],
-      selected: null
+      selected: null,
     }
   }
+
+
   componentDidMount() {
     fetch('https://country.register.gov.uk/records.json?page-size=5000')
       .then (response => {
